@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050914">
+  <title>CSS Embossed Button</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero"><h1>CSS Embossed Button</h1></header>
+  <main class="page">
+    <section class="button-list" aria-label="Ten CSS embossed button styles">
+      <article class="example">
+        <h2>1. Classic Embossed Button</h2>
+        <div class="example-body">
+          <div class="preview light"><button class="demo-btn btn1">Classic</button></div>
+          <div class="code-panel"><h3>CSS CODE</h3><pre><code>.btn1:hover {
+  transform:
+    translateY(-3px);
+  box-shadow:
+    -10px -10px 20px #ffffff,
+    10px 10px 20px #94a3b8;
+}</code></pre></div>
+        </div>
+      </article>
+
+      <article class="example">
+        <h2>2. Pressed Embossed Button</h2>
+        <div class="example-body">
+          <div class="preview light"><button class="demo-btn btn2">Pressed</button></div>
+          <div class="code-panel"><h3>CSS CODE</h3><pre><code>.btn2:hover {
+  box-shadow:
+    inset -10px -10px 18px #fff,
+    inset 10px 10px 18px #94a3b8;
+}</code></pre></div>
+        </div>
+      </article>
+
+      <article class="example">
+        <h2>3. Neon Embossed Button</h2>
+        <div class="example-body">
+          <div class="preview dark"><button class="demo-btn btn3">Neon</button></div>
+          <div class="code-panel"><h3>CSS CODE</h3><pre><code>.btn3:hover {
+  background: #38bdf8;
+  color: #0f172a;
+  box-shadow: 0 0 30px #38bdf8;
+  transform: translateY(-2px);
+}</code></pre></div>
+        </div>
+      </article>
+
+      <article class="example">
+        <h2>4. Gradient Embossed Button</h2>
+        <div class="example-body">
+          <div class="preview gradient-bg"><button class="demo-btn btn4">Gradient</button></div>
+          <div class="code-panel"><h3>CSS CODE</h3><pre><code>.btn4:hover {
+  transform:
+    translateY(-3px) scale(1.02);
+  box-shadow:
+    0 15px 25px
+    rgba(236, 72, 153, .5);
+}</code></pre></div>
+        </div>
+      </article>
+
+      <article class="example">
+        <h2>5. Metallic Embossed Button</h2>
+        <div class="example-body">
+          <div class="preview light"><button class="demo-btn btn5">Metal</button></div>
+          <div class="code-panel"><h3>CSS CODE</h3><pre><code>.btn5:hover {
+  filter: brightness(1.05);
+  transform: translateY(-2px);
+}</code></pre></div>
+        </div>
+      </article>
+
+      <article class="example">
+        <h2>6. 3D Embossed Button</h2>
+        <div class="example-body">
+          <div class="preview light"><button class="demo-btn btn6">3D<br>Button</button></div>
+          <div class="code-panel"><h3>CSS CODE</h3><pre><code>.btn6:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 8px 0 #4338ca,
+    0 15px 25px
+    rgba(99, 102, 241, .5);
+}</code></pre></div>
+        </div>
+      </article>
+
+      <article class="example">
+        <h2>7. Circular Embossed Button</h2>
+        <div class="example-body">
+          <div class="preview light"><button class="demo-btn btn7" aria-label="Add">+</button></div>
+          <div class="code-panel"><h3>CSS CODE</h3><pre><code>.btn7:hover {
+  transform: rotate(90deg)
+    scale(1.05);
+  color: #3b82f6;
+}</code></pre></div>
+        </div>
+      </article>
+
+      <article class="example">
+        <h2>8. Glass Embossed Button</h2>
+        <div class="example-body">
+          <div class="preview gradient-bg"><button class="demo-btn btn8">Glass</button></div>
+          <div class="code-panel"><h3>CSS CODE</h3><pre><code>.btn8:hover {
+  background:
+    rgba(255, 255, 255, 0.3);
+  transform: translateY(-3px);
+}</code></pre></div>
+        </div>
+      </article>
+
+      <article class="example">
+        <h2>9. Dark Embossed Button</h2>
+        <div class="example-body">
+          <div class="preview dark"><button class="demo-btn btn9">Dark</button></div>
+          <div class="code-panel"><h3>CSS CODE</h3><pre><code>.btn9:hover {
+  transform: translateY(-3px);
+  color: #f8fafc;
+}</code></pre></div>
+        </div>
+      </article>
+
+      <article class="example">
+        <h2>10. Hover Animated Embossed Button</h2>
+        <div class="example-body">
+          <div class="preview light"><button class="demo-btn btn10">Hover<br>Me</button></div>
+          <div class="code-panel"><h3>CSS CODE</h3><pre><code>.btn10:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    -12px -12px 24px #ffffff,
+    12px 12px 24px #94a3b8;
+}</code></pre></div>
+        </div>
+      </article>
+    </section>
+    <footer>Move your pointer over each button to preview its hover effect.</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
